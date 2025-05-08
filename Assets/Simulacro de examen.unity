@@ -128,7 +128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &149586029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   codigoDeEntrada: p
   cantidadDeEntradas: 10
+  deseaTenerPrioridad: 
 --- !u!4 &149586030
 Transform:
   m_ObjectHideFlags: 0
@@ -268,11 +269,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0e6d96b4dc7ea741b1e86d3e0696d7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patente: 0
+  patente: 543543
   modelo: 2023
-  kilometrosRecorridos: 5000
-  vencimientoVTV: 2024
-  HC: 59
+  kilometrosRecorridos: 9000
+  vencimientoVTV: 2022
+  HC: 12
 --- !u!4 &490869296
 Transform:
   m_ObjectHideFlags: 0
@@ -348,7 +349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1761499276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,8 +362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a21829a9db5e84ba5b1b1ed08113fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadDeUnidades: 3
-  periodoDeDias: 5
+  cantidadDeUnidades: 4
+  periodoDeDias: 26
 --- !u!4 &1761499277
 Transform:
   m_ObjectHideFlags: 0
